@@ -1,0 +1,31 @@
+body {
+    background-image:  url(https://media.discordapp.net/attachments/439716449125269504/896096593604907008/Wallpaper.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.gobackbtn {
+    position: absolute;
+    top: 85.5%;
+    right: 2%;
+    transition: all 0.5s;
+}
+
+.gobackbtn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+footer {
+    color: lightgray;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+    bottom: 5px;
+    right: 5px;
+}

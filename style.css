@@ -1,0 +1,78 @@
+body {
+    background-image:  url(https://media.discordapp.net/attachments/439716449125269504/896098169153290311/Wallpaper.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+#container1 {
+    display: flex;
+    margin-left: 580px;
+    margin-top: 70px;
+}
+
+.winter {
+    transition: all 0.5s;
+}
+
+.winter:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(130,155,166,1) 0px 20px 30px, inset rgba(130,155,166,1) 0px -20px 30px;
+}
+
+#container2 {
+    position: fixed;
+    margin-left: 115px;
+    top: 70px;
+}
+
+.spring {
+    transition: all 0.5s;
+}
+
+.spring:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(157,204,160,1) 0px 20px 30px, inset rgba(157,204,160,1) 0px -20px 30px;
+}
+
+#container3 {
+    position: fixed;
+    margin-left: 580px;
+    top: 512px;
+}
+
+.fall {
+    transition: all 0.5s;
+}
+
+.fall:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(255,105,74,1) 0px 11px 30px, inset rgba(255,105,74,1) 0px -11px 30px;
+}
+
+#container4 {
+    position: fixed;
+    margin-left: 115px;
+    top: 512px;
+}
+
+.summer {
+    transition: all 0.5s;
+}
+
+.summer:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(255,233,52,1) 0px 11px 30px, inset rgba(255,233,52,1) 0px -11px 30px;
+}
+
+footer {
+    color: lightgray;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+    bottom: 5px;
+    right: 5px;
+}
